@@ -4,24 +4,24 @@
   "new_install_prompt_erase": true,
   "builds": [
     { "chipFamily": "ESP32", "serialType": "uart", "parts": [
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32-bootloader.bin", "offset": 4096 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32-partitions.bin", "offset": 32768 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32-ota-data.bin", "offset": 61440 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32.bin", "offset": 131072 } ] },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32-bootloader.bin", "offset": 4096 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32-partitions.bin", "offset": 32768 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32-ota-data.bin", "offset": 61440 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32.bin", "offset": 131072 } ] },
     { "chipFamily": "ESP32-S2", "serialType": "cdc", "parts": [
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s2-bootloader.bin", "offset": 4096 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s2-partitions.bin", "offset": 32768 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s2-ota-data.bin", "offset": 61440 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s2.bin", "offset": 131072 } ] },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s2-bootloader.bin", "offset": 4096 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s2-partitions.bin", "offset": 32768 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s2-ota-data.bin", "offset": 61440 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s2.bin", "offset": 131072 } ] },
     { "chipFamily": "ESP32-S3", "serialType": "cdc", "parts": [
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s3-bootloader.bin", "offset": 0 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s3-partitions.bin", "offset": 32768 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s3-ota-data.bin", "offset": 61440 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32s3.bin", "offset": 131072 } ] },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s3-bootloader.bin", "offset": 0 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s3-partitions.bin", "offset": 32768 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s3-ota-data.bin", "offset": 61440 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32s3.bin", "offset": 131072 } ] },
     { "chipFamily": "ESP32-C3", "serialType": "cdc", "parts": [
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32c3-bootloader.bin", "offset": 0 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32c3-partitions.bin", "offset": 32768 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32c3-ota-data.bin", "offset": 61440 },
-      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@v1.17.26/firmware/v1.17.26/esp32c3.bin", "offset": 131072 } ] }
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32c3-bootloader.bin", "offset": 0 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32c3-partitions.bin", "offset": 32768 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32c3-ota-data.bin", "offset": 61440 },
+      { "path": "https://cdn.jsdelivr.net/gh/helios-pulse/heliopulse-releases@main/firmware/v1.17.26/esp32c3.bin", "offset": 131072 } ] }
   ]
 }
