@@ -2,7 +2,22 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
-## 0.1.2 — Existing Home Assistant entities
+## 0.1.3 — Complete Home Assistant source setup
+
+- Map frequency and AC voltage, and identify a single-phase installation.
+- Configure panel capacity, tilt and azimuth in the source editor. Saving the
+  solar array refreshes the forecast using the location set in System.
+- Optionally estimate battery current from power ÷ voltage when no current
+  sensor is mapped. Calculated values are labelled as estimated and disappear
+  when input readings are invalid or too far apart in time.
+- Clear labels for production and consumption today; known lifetime counters
+  are rejected as daily energy. Unassigned daily counters use integrated power.
+- Complete snapshots remove obsolete readings from the live display.
+
+Validated in QEMU with a real solar forecast request, restart persistence,
+measured/estimated current, zero-voltage handling and seven UI languages.
+
+## Existing Home Assistant entities
 
 In **Devices → Add from Home Assistant**, select an existing inverter device
 and explicitly map its sensors to HelioPulse metrics. Readings feed the live
