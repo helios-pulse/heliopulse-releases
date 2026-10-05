@@ -2,6 +2,22 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.2 — Existing Home Assistant entities
+
+In **Devices → Add from Home Assistant**, select an existing inverter device
+and explicitly map its sensors to HelioPulse metrics. Readings feed the live
+dashboard and history, without polling the inverter a second time. The source
+reads Core every five seconds and supports editing, pausing and deletion.
+
+Units are normalized automatically. Positive grid power means import; positive
+battery power/current means discharge. Use **Invert sign** when the source uses
+the opposite convention. Unknown, unavailable, stale and out-of-range readings
+are skipped. Imported readings are not republished through HelioPulse MQTT.
+This works with existing integrations such as Solarman and requires no broker
+configuration changes. Mapping and restart recovery were validated in QEMU.
+
+## Installation
+
 Add `https://github.com/helios-pulse/heliopulse-releases` under
 Settings → Apps → App store → Repositories, install **HelioPulse**, then open
 its Web UI. Enable **Show in sidebar** for the solar-power icon. Only active
