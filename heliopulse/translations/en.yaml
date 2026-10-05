@@ -1,0 +1,16 @@
+configuration:
+  lan_api_enabled:
+    name: LAN API access
+    description: Disabled by default. Prefer Home Assistant Ingress for browser access.
+  mqtt_mode:
+    name: MQTT mode
+    description: auto uses the Supervisor broker; manual uses HelioPulse settings; disabled stops MQTT.
+  topic_prefix:
+    name: MQTT topic prefix
+    description: Use a distinct prefix for each HelioPulse instance.
+  discovery_enabled:
+    name: MQTT Discovery
+    description: Publish sensor discovery messages for Home Assistant.
+  discovery_prefix:
+    name: Discovery prefix
+    description: Must match the discovery prefix of the Home Assistant MQTT integration.

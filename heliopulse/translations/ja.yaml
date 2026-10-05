@@ -1,0 +1,16 @@
+configuration:
+  lan_api_enabled:
+    name: LAN からの API アクセス
+    description: 初期状態では無効です。ブラウザーには Home Assistant Ingress を推奨します。
+  mqtt_mode:
+    name: MQTT モード
+    description: auto は Supervisor のブローカー、manual は HelioPulse の設定を使用し、disabled は MQTT を無効にします。
+  topic_prefix:
+    name: MQTT トピックの接頭辞
+    description: HelioPulse の各インスタンスに異なる接頭辞を使用してください。
+  discovery_enabled:
+    name: MQTT 自動検出
+    description: Home Assistant にセンサーの検出メッセージを公開します。
+  discovery_prefix:
+    name: 検出の接頭辞
+    description: Home Assistant MQTT 統合の検出接頭辞と一致させてください。

@@ -1,0 +1,16 @@
+configuration:
+  lan_api_enabled:
+    name: 局域网 API 访问
+    description: 默认禁用。浏览器访问建议使用 Home Assistant Ingress。
+  mqtt_mode:
+    name: MQTT 模式
+    description: auto 使用 Supervisor 的代理；manual 使用 HelioPulse 设置；disabled 禁用 MQTT。
+  topic_prefix:
+    name: MQTT 主题前缀
+    description: 每个 HelioPulse 实例使用不同的前缀。
+  discovery_enabled:
+    name: MQTT 自动发现
+    description: 为 Home Assistant 发布传感器发现消息。
+  discovery_prefix:
+    name: 发现前缀
+    description: 必须与 Home Assistant MQTT 集成的发现前缀一致。
