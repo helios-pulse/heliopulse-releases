@@ -1,0 +1,42 @@
+name: HelioPulse
+version: "0.1.1"
+slug: heliopulse
+description: HelioPulse
+arch:
+  - aarch64
+  - amd64
+startup: application
+boot: manual
+stage: experimental
+ingress: true
+ingress_port: 8099
+ingress_stream: true
+panel_icon: mdi:solar-power
+panel_title: HelioPulse
+panel_admin: true
+homeassistant_api: true
+services:
+  - mqtt:want
+uart: true
+udev: true
+usb: false
+host_network: false
+full_access: false
+apparmor: true
+backup: cold
+ports:
+  8080/tcp: null
+options:
+  lan_api_enabled: false
+  mqtt_mode: auto
+  topic_prefix: heliopulse
+  discovery_enabled: true
+  discovery_prefix: homeassistant
+schema:
+  lan_api_enabled: bool
+  mqtt_mode: list(auto|manual|disabled)
+  topic_prefix: str
+  discovery_enabled: bool
+  discovery_prefix: str
+
+image: public.ecr.aws/j7s7r2j5/heliopulse-homeassistant
