@@ -1,0 +1,16 @@
+configuration:
+  lan_api_enabled:
+    name: 區域網路 API 存取
+    description: 預設停用。瀏覽器存取建議使用 Home Assistant Ingress。
+  mqtt_mode:
+    name: MQTT 模式
+    description: auto 使用 Supervisor 的代理；manual 使用 HelioPulse 設定；disabled 停用 MQTT。
+  topic_prefix:
+    name: MQTT 主題前綴
+    description: 每個 HelioPulse 執行個體使用不同的前綴。
+  discovery_enabled:
+    name: MQTT 自動探索
+    description: 為 Home Assistant 發佈感測器探索訊息。
+  discovery_prefix:
+    name: 探索前綴
+    description: 必須與 Home Assistant MQTT 整合的探索前綴一致。
