@@ -2,6 +2,17 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.7 — HelioPulse core 1.20.9
+
+- Include signing test fixtures in native container builds (0.1.6 did not publish).
+
+- Improve error handling, history ranges, device selection and mobile layouts.
+- Update the vulnerable frontend source-map dependency.
+- Include the new encrypted recovery format in the core. Coordinated full backups
+  require the appliance worker or an external Docker helper; Home Assistant App
+  recovery continues to use Supervisor cold backups.
+- Preserve Home Assistant ingress, source mapping and managed MQTT.
+
 ## 0.1.5 — HelioPulse core 1.20.6
 
 - Expanded onboarding: 35-step orientation and 13-step getting-started guide.

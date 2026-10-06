@@ -1,3 +1,15 @@
+# 0.1.7
+
+- Include signing test fixtures in the native container build.
+- Ship the changes listed below with core 1.20.9.
+
+# 0.1.6 — Not published (build failed)
+
+- Include HelioPulse core 1.20.9 with functional fixes and the frontend security update.
+- Improve history, API failure recovery, inverter selection and mobile layouts.
+- Core encrypted recovery requires the appliance worker or external Docker helper;
+  use Supervisor cold backups to recover the Home Assistant App.
+
 # 0.1.5
 
 - Include HelioPulse core 1.20.6 with a detailed 35-step tour and 13-step setup guide.
