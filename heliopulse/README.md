@@ -2,6 +2,16 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.5 — HelioPulse core 1.20.6
+
+- Expanded onboarding: 35-step orientation and 13-step getting-started guide.
+- Jump between sections, pause to use the screen and resume after reloading.
+- Mobile highlights, contextual availability notices and seven translated languages.
+- Home Assistant retains its source mapping, managed MQTT and host restrictions.
+
+The guide explains controls without executing device actions. Home Assistant
+updates continue to be managed from its App page.
+
 ## 0.1.4 — HelioPulse core 1.20.5
 
 - Savings with time-of-use tariffs and export pricing.

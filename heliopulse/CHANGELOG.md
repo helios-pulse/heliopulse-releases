@@ -1,3 +1,10 @@
+# 0.1.5
+
+- Include HelioPulse core 1.20.6 with a detailed 35-step tour and 13-step setup guide.
+- Add section navigation, pause to explore and saved progress across reloads.
+- Improve mobile highlights and translate the expanded guide into seven languages.
+- Preserve Home Assistant source setup, managed MQTT and host-feature restrictions.
+
 # 0.1.4
 
 - Include HelioPulse core 1.20.5: time-of-use tariffs and export pricing,
