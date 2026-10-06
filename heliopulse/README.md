@@ -2,6 +2,18 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.4 — HelioPulse core 1.20.5
+
+- Savings with time-of-use tariffs and export pricing.
+- Off-grid devices are valued in savings even without a grid meter.
+- Energy intervals are no longer overwritten; savings reconcile with daily
+  counters, and historical impact totals and energy counters are protected.
+- Faster History: grouped telemetry queries and independent chart loading.
+
+Built from core 1.20.5. The release pipeline validates amd64/arm64 builds,
+startup, UID10001, NoNewPrivs and the vulnerability gate; the new core
+features have not yet been exercised inside a Home Assistant lab.
+
 ## 0.1.3 — Complete Home Assistant source setup
 
 - Map frequency and AC voltage, and identify a single-phase installation.

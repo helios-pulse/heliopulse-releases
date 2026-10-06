@@ -1,3 +1,18 @@
+# 0.1.4
+
+- Include HelioPulse core 1.20.5: time-of-use tariffs and export pricing,
+  off-grid savings without a grid meter, protected energy history and faster
+  History charts.
+
+# 0.1.3
+
+- Map frequency, AC voltage, single-phase installs and solar array geometry
+  from Home Assistant sources; optional estimated battery current.
+
+# 0.1.2
+
+- Add existing Home Assistant entities as HelioPulse device sources.
+
 # 0.1.0 — Experimental (publication pending)
 
 - Home Assistant runtime and non-root process collectors.
