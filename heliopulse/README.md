@@ -2,6 +2,15 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.8 — HelioPulse core 1.20.21
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Include energy-history query fixes and consumption forecasts on inverter pages.
+- Include read-only device details and sanitized diagnostic exports for installers.
+
+Home Assistant updates remain managed by Supervisor. This release does not
+change the Solarman profile or the freshness policy for imported HA entities.
+
 ## 0.1.7 — HelioPulse core 1.20.9
 
 - Include signing test fixtures in native container builds (0.1.6 did not publish).
