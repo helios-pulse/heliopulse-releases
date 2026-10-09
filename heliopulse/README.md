@@ -2,6 +2,14 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.9 — HelioPulse core 1.20.28
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Include grid export energy on the overview, inverter detail and history.
+- Include the installer platform's OTA request queue. In Home Assistant the
+  installer card is hidden and OTA stays managed by Supervisor, so this changes
+  nothing for HA installations.
+
 ## 0.1.8 — HelioPulse core 1.20.21
 
 - Refresh the Home Assistant distribution with the latest core release.
