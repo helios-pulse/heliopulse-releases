@@ -2,6 +2,14 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.11 — HelioPulse core 1.20.32
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Security hardening: viewers can no longer change automations, serial driver
+  settings are validated before use, collectors can only report their own
+  devices, and webhooks cannot reach loopback or cloud metadata addresses.
+- Faster, coordinated loading of the dashboard.
+
 ## 0.1.10 — HelioPulse core 1.20.29
 
 - Refresh the Home Assistant distribution with the latest core release.
