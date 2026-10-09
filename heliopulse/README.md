@@ -2,6 +2,18 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.13 — HelioPulse core 1.20.37
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Updates a network library to fix a high-severity vulnerability (CVE-2026-78669).
+
+## 0.1.12 — HelioPulse core 1.20.35
+
+- Refresh the Home Assistant distribution with the latest core release.
+- The core adds installer driver editing inside an owner commissioning window.
+  Home Assistant hides the Installer tab, so this has no visible change for HA
+  installations.
+
 ## 0.1.11 — HelioPulse core 1.20.32
 
 - Refresh the Home Assistant distribution with the latest core release.
