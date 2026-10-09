@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.14 — HelioPulse core 1.20.38
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Device parameters keep loading when one register does not answer.
+
 ## 0.1.13 — HelioPulse core 1.20.37
 
 - Refresh the Home Assistant distribution with the latest core release.
