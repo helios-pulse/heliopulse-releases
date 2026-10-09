@@ -2,6 +2,12 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.10 — HelioPulse core 1.20.29
+
+- Refresh the Home Assistant distribution with the latest core release.
+- The core now groups installer access in a System › Installer tab. Home Assistant
+  hides that tab, so this release has no visible change for HA installations.
+
 ## 0.1.9 — HelioPulse core 1.20.28
 
 - Refresh the Home Assistant distribution with the latest core release.
