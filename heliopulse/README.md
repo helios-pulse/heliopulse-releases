@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.15 — HelioPulse core 1.20.39
+
+- Refresh the Home Assistant distribution with the latest core release.
+- The system DNS indicator no longer reports a false failure.
+
 ## 0.1.14 — HelioPulse core 1.20.38
 
 - Refresh the Home Assistant distribution with the latest core release.
