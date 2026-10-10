@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.16 — HelioPulse core 1.20.40
+
+- Refresh the Home Assistant distribution with the latest core release.
+- After a week of use, a discreet card lets you rate HelioPulse and leave optional feedback.
+
 ## 0.1.15 — HelioPulse core 1.20.39
 
 - Refresh the Home Assistant distribution with the latest core release.
