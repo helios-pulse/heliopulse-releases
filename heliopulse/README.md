@@ -2,6 +2,15 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.21 — HelioPulse core 1.21.1
+
+- Refresh the Home Assistant distribution with core 1.21.1. Its new local Shelly integration is not shown inside Home Assistant, which already ships its own Shelly integration.
+
+## 0.1.20 — HelioPulse core 1.21.0
+
+- New beta read-only driver for the INVT iMars XD-TL hybrid inverters (XD3–6KTL), over a Solarman logger or RS485.
+- Drivers can declare derived metrics (a sum of metrics read in the same cycle). The INVT driver uses it for house consumption: inverter AC output plus grid meter.
+
 ## 0.1.19 — HelioPulse core 1.20.51
 
 - Refresh the Home Assistant distribution with core 1.20.51. Its new System › Maintenance password change applies only to local HelioPulse sign-ins; inside Home Assistant the identity comes from Home Assistant, so the option is not shown.
