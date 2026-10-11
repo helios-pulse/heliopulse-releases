@@ -2,6 +2,12 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.18 — HelioPulse core 1.20.50
+
+- The site time zone now follows the map location instead of staying on America/Bogota; it can also be chosen in System › Location.
+- Existing installations are corrected on startup and the change is recorded in Events (a time zone chosen manually is kept).
+- Fixed: outside Colombia the solar forecast disappeared after local midnight and its curve was shifted.
+
 ## 0.1.17 — HelioPulse core 1.20.49
 
 - Refresh the Home Assistant distribution with the latest core release.
