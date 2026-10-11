@@ -10,7 +10,7 @@ configuration:
     description: Use a distinct prefix for each HelioPulse instance.
   discovery_enabled:
     name: MQTT Discovery
-    description: Publish sensor discovery messages for Home Assistant.
+    description: Publish sensor discovery messages for Home Assistant. No effect when MQTT mode is disabled.
   discovery_prefix:
     name: Discovery prefix
     description: Must match the discovery prefix of the Home Assistant MQTT integration.

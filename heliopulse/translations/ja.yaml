@@ -10,7 +10,7 @@ configuration:
     description: HelioPulse の各インスタンスに異なる接頭辞を使用してください。
   discovery_enabled:
     name: MQTT 自動検出
-    description: Home Assistant にセンサーの検出メッセージを公開します。
+    description: Home Assistant にセンサーの検出メッセージを公開します。MQTT モードが disabled の場合は効果がありません。
   discovery_prefix:
     name: 検出の接頭辞
     description: Home Assistant MQTT 統合の検出接頭辞と一致させてください。

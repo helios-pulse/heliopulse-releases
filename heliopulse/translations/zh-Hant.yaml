@@ -10,7 +10,7 @@ configuration:
     description: 每個 HelioPulse 執行個體使用不同的前綴。
   discovery_enabled:
     name: MQTT 自動探索
-    description: 為 Home Assistant 發佈感測器探索訊息。
+    description: 為 Home Assistant 發佈感測器探索訊息。MQTT 模式為 disabled 時無效。
   discovery_prefix:
     name: 探索前綴
     description: 必須與 Home Assistant MQTT 整合的探索前綴一致。

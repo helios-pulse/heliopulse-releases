@@ -39,8 +39,14 @@ Create a Home Assistant backup including HelioPulse before updating. The App
 uses **cold backup**: Supervisor stops it before copying `/data`. That includes
 SQLite, driver/configuration files, discovery registry and the local vault key.
 The Supervisor token is supplied anew on startup and is not backed up by the App.
-Logical exports have a separate sanitization contract and are not equivalent to
-a cold backup of secrets. Restore portable exports according to HelioPulse docs.
+
+HelioPulse can also create an encrypted full backup from **System → Maintenance**
+(database, configuration, drivers, keys and models; password of 12+ characters).
+The App briefly stops its API for a consistent copy and restarts it; monitoring
+pauses for a few seconds. Restore accepts only a backup made by the same App
+version; it rolls back automatically if the restored API does not start. The
+Supervisor-managed App options are never included or overwritten. Keep the
+password: without it the archive cannot be restored.
 
 Update through Supervisor. Do not use appliance OTA or systemd commands.
 Downgrade only when the schema is compatible; otherwise restore the matching

@@ -2,6 +2,15 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.17 — HelioPulse core 1.20.49
+
+- Refresh the Home Assistant distribution with the latest core release.
+- Full encrypted backups now run inside the App: a root supervisor with `no_new_privs` handles them while the API keeps running as UID 10001.
+- The interface shows only what applies inside Home Assistant: Security, Installer, Kasa, SmartThings, Tuya, AI and the host network rows are hidden.
+- Fixed a blank screen in System › Maintenance and database restores that left WAL files behind.
+- The App starts automatically after a reboot.
+- Known issue: outside Colombia the solar forecast is hidden from 00:00 to 07:00 because the site time zone is fixed to America/Bogota.
+
 ## 0.1.16 — HelioPulse core 1.20.40
 
 - Refresh the Home Assistant distribution with the latest core release.

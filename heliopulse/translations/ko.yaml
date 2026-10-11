@@ -10,7 +10,7 @@ configuration:
     description: HelioPulse 인스턴스마다 다른 접두사를 사용하세요.
   discovery_enabled:
     name: MQTT 자동 검색
-    description: Home Assistant용 센서 검색 메시지를 발행합니다.
+    description: Home Assistant용 센서 검색 메시지를 발행합니다. MQTT 모드가 disabled이면 효과가 없습니다.
   discovery_prefix:
     name: 검색 접두사
     description: Home Assistant MQTT 통합의 검색 접두사와 일치해야 합니다.

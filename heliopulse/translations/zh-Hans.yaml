@@ -10,7 +10,7 @@ configuration:
     description: 每个 HelioPulse 实例使用不同的前缀。
   discovery_enabled:
     name: MQTT 自动发现
-    description: 为 Home Assistant 发布传感器发现消息。
+    description: 为 Home Assistant 发布传感器发现消息。MQTT 模式为 disabled 时无效。
   discovery_prefix:
     name: 发现前缀
     description: 必须与 Home Assistant MQTT 集成的发现前缀一致。

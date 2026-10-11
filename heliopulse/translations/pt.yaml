@@ -10,7 +10,7 @@ configuration:
     description: Use um prefixo diferente para cada instância do HelioPulse.
   discovery_enabled:
     name: Descoberta MQTT
-    description: Publica mensagens de descoberta de sensores para o Home Assistant.
+    description: Publica mensagens de descoberta de sensores para o Home Assistant. Sem efeito quando o modo MQTT é disabled.
   discovery_prefix:
     name: Prefixo de descoberta
     description: Deve corresponder ao prefixo de descoberta da integração MQTT do Home Assistant.
