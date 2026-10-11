@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.19 — HelioPulse core 1.20.51
+
+- Refresh the Home Assistant distribution with core 1.20.51. Its new System › Maintenance password change applies only to local HelioPulse sign-ins; inside Home Assistant the identity comes from Home Assistant, so the option is not shown.
+
 ## 0.1.18 — HelioPulse core 1.20.50
 
 - The site time zone now follows the map location instead of staying on America/Bogota; it can also be chosen in System › Location.
