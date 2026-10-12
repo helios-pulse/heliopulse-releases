@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.28 — HelioPulse core 1.23.4
+
+- The dashboard reconnects its live connection by itself when it stops receiving updates (for example after a restart behind a proxy), so live views no longer freeze until a reload.
+
 ## 0.1.27 — HelioPulse core 1.23.3
 
 - Daily and interval energy and long-range history (summaries of 15 min and 1 h) are kept in SQLite when InfluxDB is used; long History ranges load much faster.
