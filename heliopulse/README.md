@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.23 — HelioPulse core 1.22.1
+
+- Equipos › Drivers has a "Request driver" form: brand and model, optional connection, notes and email for follow-up. Requests go through the existing support channel.
+
 ## 0.1.22 — HelioPulse core 1.22.0
 
 - Automations can write inverter settings, including whole time slots, through the same validated, read-back and audited path as manual changes. Disabled by default: an administrator enables it globally and per device, choosing the allowed parameters, limits and write cadence.
