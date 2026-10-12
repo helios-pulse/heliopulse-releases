@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.27 — HelioPulse core 1.23.3
+
+- Daily and interval energy and long-range history (summaries of 15 min and 1 h) are kept in SQLite when InfluxDB is used; long History ranges load much faster.
+- A slow telemetry store at startup no longer restarts the day's integrated energy from zero.
+
 ## 0.1.26 — HelioPulse core 1.23.2
 
 - Support requests attach a full, sanitized diagnostic bundle in the background after sending.
