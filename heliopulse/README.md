@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.26 — HelioPulse core 1.23.2
+
+- Support requests attach a full, sanitized diagnostic bundle in the background after sending.
+- Faster SQLite reads and site battery SOC averaged per installation.
+
 ## 0.1.25 — HelioPulse core 1.23.1
 
 - System › General keeps Information and Resources open side by side; Maintenance opens Diagnosis first.
