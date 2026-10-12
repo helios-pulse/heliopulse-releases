@@ -2,6 +2,12 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.22 — HelioPulse core 1.22.0
+
+- Automations can write inverter settings, including whole time slots, through the same validated, read-back and audited path as manual changes. Disabled by default: an administrator enables it globally and per device, choosing the allowed parameters, limits and write cadence.
+- The panel asks for the site location and warns while it is missing.
+- New beta drivers for MUST PV18/PV19 and Felicity T-REX, and the EG4 GridBOSS as a meter. The local MCP server for AI agents is not shown inside Home Assistant.
+
 ## 0.1.21 — HelioPulse core 1.21.1
 
 - Refresh the Home Assistant distribution with core 1.21.1. Its new local Shelly integration is not shown inside Home Assistant, which already ships its own Shelly integration.
