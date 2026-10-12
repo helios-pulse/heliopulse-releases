@@ -2,6 +2,12 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.24 — HelioPulse core 1.23.0
+
+- Guided onboarding: adding a device now goes model → connection → details, with model search, BETA badges, per-method help, a pre-save serial test and a first-reading check with diagnosis.
+- Setup checklist on Energy and in System › Help; state-aware welcome; short walkthroughs per area and a "How does it work?" entry on each screen.
+- System settings are grouped as accordions; one anonymous notice is sent when a new installation starts for the first time.
+
 ## 0.1.23 — HelioPulse core 1.22.1
 
 - Equipos › Drivers has a "Request driver" form: brand and model, optional connection, notes and email for follow-up. Requests go through the existing support channel.
