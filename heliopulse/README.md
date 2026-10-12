@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.25 — HelioPulse core 1.23.1
+
+- System › General keeps Information and Resources open side by side; Maintenance opens Diagnosis first.
+- Support shows "Priority support" and no longer asks for an email when one is linked to the system.
+
 ## 0.1.24 — HelioPulse core 1.23.0
 
 - Guided onboarding: adding a device now goes model → connection → details, with model search, BETA badges, per-method help, a pre-save serial test and a first-reading check with diagnosis.
