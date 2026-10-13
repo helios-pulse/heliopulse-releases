@@ -2,6 +2,13 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.29 — HelioPulse core 1.23.7
+
+- A collector that stops unexpectedly restarts by itself (after 5 s, backing off up to 60 s) instead of staying down until the app restarts.
+- Automation time windows follow the site location's time zone, like daily totals and reports.
+- Telemetry is queued, not dropped, while InfluxDB rejects the token, and is sent once it is fixed.
+- Quieter logs: successful collector updates and health checks are logged only at debug level.
+
 ## 0.1.28 — HelioPulse core 1.23.4
 
 - The dashboard reconnects its live connection by itself when it stops receiving updates (for example after a restart behind a proxy), so live views no longer freeze until a reload.
