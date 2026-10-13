@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.30 — HelioPulse core 1.23.8
+
+- No changes for Home Assistant: this version keeps the core aligned with HelioPulse 1.23.8, whose only change affects updates on HelioPulse OS.
+
 ## 0.1.29 — HelioPulse core 1.23.7
 
 - A collector that stops unexpectedly restarts by itself (after 5 s, backing off up to 60 s) instead of staying down until the app restarts.
