@@ -2,6 +2,13 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.36 — HelioPulse core 1.23.14
+
+- Driver diagnostics: each device has a page listing every value its driver reads, with the last reading, its status (reading, stale, not reading or calculated) and where it comes from. Writable parameters are read only on demand; the table can be copied or downloaded as CSV. Home Assistant sources have a Diagnostics button too.
+- Forecast history: History compares what the solar forecast predicted with the real production, by hour or by day, with the average daily error and bias. The history starts filling from this version.
+- Calibrated forecast: after a few days of history, the forecast is corrected with the real production of the last 14 days, ignoring hours with reading gaps or a full battery. It is used by the Overview and the energy plan, and can be switched off in History.
+- Several panel orientations: an inverter, including a Home Assistant inverter source, can have up to four planes with their own power, tilt and azimuth; the forecast adds them up.
+
 ## 0.1.35 — HelioPulse core 1.23.13
 
 - Battery state of charge and other steady values read from Home Assistant no longer disappear after five minutes: HelioPulse keeps a value while Home Assistant reports the sensor as available. Each mapped sensor shows whether it is reading, holding its last value or skipped, and why; the optional maximum age is now per sensor.
