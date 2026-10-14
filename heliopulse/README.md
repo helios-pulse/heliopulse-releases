@@ -2,6 +2,21 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.38 — HelioPulse core 1.23.16
+
+- Includes the changes of 0.1.37, whose image build failed and was never published.
+- Backup password: the first full backup sets it; later backups use it without asking and it is only needed to restore. A recovery key can be downloaded and used instead of the password, and changing the password keeps older backups readable with the one they were made with.
+- Backups can be deleted from the list.
+- Scheduled and off-site copies of the App are made with Home Assistant's own backups (Settings → System → Backups, which can store them in Google Drive or OneDrive); the backups card says so.
+- Growatt SPA (beta driver): grid frequency, AC output voltage and power, and inverter temperatures are read.
+
+## 0.1.37 — HelioPulse core 1.23.15
+
+- Backup password: the first full backup sets it; later backups use it without asking and it is only needed to restore. A recovery key can be downloaded and used instead of the password, and changing the password keeps older backups readable with the one they were made with.
+- Backups can be deleted from the list.
+- Scheduled and off-site copies of the App are made with Home Assistant's own backups (Settings → System → Backups, which can store them in Google Drive or OneDrive); the backups card says so.
+- Growatt SPA (beta driver): grid frequency, AC output voltage and power, and inverter temperatures are read.
+
 ## 0.1.36 — HelioPulse core 1.23.14
 
 - Driver diagnostics: each device has a page listing every value its driver reads, with the last reading, its status (reading, stale, not reading or calculated) and where it comes from. Writable parameters are read only on demand; the table can be copied or downloaded as CSV. Home Assistant sources have a Diagnostics button too.

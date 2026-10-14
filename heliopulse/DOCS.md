@@ -82,13 +82,22 @@ uses **cold backup**: Supervisor stops it before copying `/data`. That includes
 SQLite, driver/configuration files, discovery registry and the local vault key.
 The Supervisor token is supplied anew on startup and is not backed up by the App.
 
-HelioPulse can also create an encrypted full backup from **System → Maintenance**
-(database, configuration, drivers, keys and models; password of 12+ characters).
-The App briefly stops its API for a consistent copy and restarts it; monitoring
-pauses for a few seconds. Restore accepts only a backup made by the same App
-version; it rolls back automatically if the restored API does not start. The
-Supervisor-managed App options are never included or overwritten. Keep the
-password: without it the archive cannot be restored.
+For automatic and off-site copies, use Home Assistant's own backups:
+**Settings → System → Backups** schedules them, keeps a number of copies and can
+store them with Home Assistant Cloud or the Google Drive and OneDrive backup
+integrations. Select HelioPulse among the Apps included. HelioPulse does not run
+its own schedule or cloud uploads inside Home Assistant, so the two never back
+up the same night.
+
+HelioPulse can also create an encrypted full backup on demand from **System →
+Maintenance** (database, configuration, drivers, keys and models). The first one
+sets the backup password (12+ characters); later backups use it without asking,
+and it is only needed to restore. The App briefly stops its API for a consistent
+copy and restarts it; monitoring pauses for a few seconds. Restore accepts only a
+backup made by the same App version, with the password or the downloadable
+recovery key; it rolls back automatically if the restored API does not start.
+The Supervisor-managed App options are never included or overwritten. Keep the
+password or the recovery key: without them the archive cannot be restored.
 
 Update through Supervisor. Do not use appliance OTA or systemd commands.
 Downgrade only when the schema is compatible; otherwise restore the matching
