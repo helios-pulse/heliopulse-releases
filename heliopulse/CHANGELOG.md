@@ -1,3 +1,8 @@
+# 0.1.34 — HelioPulse core 1.23.12
+
+- Energy on phones: the "Now" summary starts with solar production (power and whether the panels are producing) instead of a "Source" cell that repeated the battery or grid; long status words no longer overflow.
+- History: production vs consumption, temperatures and per-phase charts use solid lines for every series.
+
 # 0.1.33 — HelioPulse core 1.23.11
 
 - First published Home Assistant build since 0.1.30: versions 0.1.31 and 0.1.32 failed to build and were never released, so their changes listed below arrive with this version.
