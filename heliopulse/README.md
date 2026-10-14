@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.39 — HelioPulse core 1.23.18
+
+- Backups: a failed backup now says where it failed (pre-backup checks, copy, disk space, resume or verification) instead of a generic message.
+- Backups no longer count InfluxDB rows with full-table queries, which failed on large histories; the check reads the Parquet metadata instead.
+
 ## 0.1.38 — HelioPulse core 1.23.16
 
 - Includes the changes of 0.1.37, whose image build failed and was never published.
