@@ -2,6 +2,25 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.33 — HelioPulse core 1.23.11
+
+- First published Home Assistant build since 0.1.30: versions 0.1.31 and 0.1.32 failed to build and were never released, so their changes listed below arrive with this version.
+- The "CO₂ avoided" and "Estimated savings" cards share one layout: the value lines up with the title next to the icon.
+
+## 0.1.32 — HelioPulse core 1.23.10
+
+- The battery screen's "State of charge (24h)" chart now shows its history for banks that group several packs on one cable (JK, Pylontech/Must and similar), and follows the pack you select.
+
+## 0.1.31 — HelioPulse core 1.23.9
+
+- The panel fits Home Assistant's frame better: a single compact header row without a second logo, and layouts that adapt to the space next to the sidebar.
+- Readable everywhere: text and charts meet contrast in light and dark mode, numbers use your language's format, high-contrast mode keeps bars visible and animations respect reduced motion.
+- Each device shows live, delayed or no communication and when it last reported; alarms say the likely cause and what to do.
+- On phones, Energy opens with a "now" summary and the bottom bar has labels.
+- Theme: System (the new default, follows your device), Light or Dark, with no flash of the wrong theme.
+- Reports show the change against the previous period again; using less energy counts as an improvement.
+- New beta drivers: Deye/Sunsynk single-phase, Huawei SUN2000 with LUNA2000, Victron GX over Modbus TCP, and Solis and Sungrow grid-tied string inverters. Solis RHI DC and meter power now read correctly.
+
 ## 0.1.30 — HelioPulse core 1.23.8
 
 - No changes for Home Assistant: this version keeps the core aligned with HelioPulse 1.23.8, whose only change affects updates on HelioPulse OS.

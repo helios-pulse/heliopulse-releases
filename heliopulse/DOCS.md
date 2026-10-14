@@ -1,4 +1,45 @@
-# Configuration
+# HelioPulse
+
+HelioPulse monitors your solar installation from Home Assistant: what the panels
+produce, what the house uses, the battery and the grid, live and over time.
+
+## What it does
+
+- Shows live production, consumption, battery and grid in one energy-flow view,
+  plus history, savings, alarms and monthly reports.
+- Reads inverters, batteries and meters directly (USB/RS485 serial or network),
+  or from sensors you already have in Home Assistant
+  (**Devices → Add from Home Assistant**), without polling the inverter twice.
+- Publishes its readings to Home Assistant through MQTT, so you can use them in
+  dashboards and automations.
+- Runs locally: readings and settings stay on your Home Assistant host.
+
+## Open it
+
+1. Install **HelioPulse** from the App store and start it.
+2. Turn on **Show in sidebar** and open **HelioPulse** from the sidebar
+   (or press **Open Web UI**). There is no separate HelioPulse sign-in.
+3. Only Home Assistant administrators can open it.
+4. Add your first device in **Devices → Add**. To send readings to Home
+   Assistant, install the Mosquitto broker App and the MQTT integration first.
+
+## Known issues
+
+- The App is experimental: USB/RS485 adapters, ESP32 collectors and physical
+  Raspberry Pi or x86 hardware have not finished acceptance testing.
+- After plugging in a new USB adapter, restart the App so it can use it.
+- Some panel sections are hidden here because Home Assistant handles them or
+  they do not apply: Security, Installer, Kasa, SmartThings, Tuya, Shelly, AI,
+  the MCP server and the host network rows.
+- Update the App from its page in Home Assistant; HelioPulse's own update
+  screen does not apply.
+- Devices deleted before the discovery registry existed may leave old MQTT
+  entities behind; remove them manually.
+
+When asking for help, use **Support** in the panel and include the App and core
+versions. Never share tokens, passwords or Ingress URLs.
+
+# Configuration (technical details)
 
 ## Access and MQTT
 
