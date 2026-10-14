@@ -1,3 +1,12 @@
+# 0.1.35 — HelioPulse core 1.23.13
+
+- Battery state of charge and other steady values read from Home Assistant no longer disappear after five minutes: HelioPulse keeps a value while Home Assistant reports the sensor as available. Each mapped sensor shows whether it is reading, holding its last value or skipped, and why; the optional maximum age is now per sensor.
+- Add batteries and EV chargers from Home Assistant, not only inverters. Choose the type (HelioPulse suggests it from the sensors), map one or more battery packs, from one or several devices such as one ESP32 per BMS, with their cells, and link a battery or charger to its inverter. Batteries no longer count as extra inverters.
+- The site location, time zone and currency are taken from Home Assistant, so the location prompt no longer asks again.
+- Entities published to Home Assistant use the device name, readable names in the panel language and rounded values; cell voltages and status values are listed as diagnostics. Entity IDs do not change, but their visible names do.
+- Users who are not Home Assistant administrators see a clear message instead of an error code. The anonymous installation notice now works in the App: existing installations report once as "existing".
+- Flash collector explains the LAN API and port mapping an ESP32 needs in Home Assistant.
+
 # 0.1.34 — HelioPulse core 1.23.12
 
 - Energy on phones: the "Now" summary starts with solar production (power and whether the panels are producing) instead of a "Source" cell that repeated the battery or grid; long status words no longer overflow.

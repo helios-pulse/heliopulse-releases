@@ -8,8 +8,9 @@ produce, what the house uses, the battery and the grid, live and over time.
 - Shows live production, consumption, battery and grid in one energy-flow view,
   plus history, savings, alarms and monthly reports.
 - Reads inverters, batteries and meters directly (USB/RS485 serial or network),
-  or from sensors you already have in Home Assistant
-  (**Devices → Add from Home Assistant**), without polling the inverter twice.
+  or from sensors you already have in Home Assistant — inverters, batteries
+  (several packs and cells) and EV chargers (**Devices → Add from Home
+  Assistant**), without polling the equipment twice.
 - Publishes its readings to Home Assistant through MQTT, so you can use them in
   dashboards and automations.
 - Runs locally: readings and settings stay on your Home Assistant host.
@@ -93,6 +94,15 @@ Update through Supervisor. Do not use appliance OTA or systemd commands.
 Downgrade only when the schema is compatible; otherwise restore the matching
 pre-upgrade backup. Experimental installations based on an isolated development
 branch are not evidence of compatible production upgrade/rollback.
+
+## Anonymous notices
+
+HelioPulse tells heliopulse.io when it is installed and, once per version, when
+it is updated. Each notice carries only a random installation id created by the
+App, the runtime, the architecture, the HelioPulse core version and, for
+updates, the previous version. The site adds the country. No user, hostname,
+IP address, network, device or energy data is sent, and nothing else is
+reported while you use the App.
 
 ## Current experimental limits
 
