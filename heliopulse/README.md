@@ -2,6 +2,11 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.40 — HelioPulse core 1.23.21
+
+- Firmware version on the device cards: each inverter shows the firmware version it reports in its own registers (SRNE: app version; Deye three-phase and single-phase: control and communication boards). HelioPulse only reads it, every 12 hours, and never updates an inverter's firmware.
+- If you edited the SRNE or Deye driver, restore the official one in System → Drivers to get the firmware registers.
+
 ## 0.1.39 — HelioPulse core 1.23.18
 
 - Backups: a failed backup now says where it failed (pre-backup checks, copy, disk space, resume or verification) instead of a generic message.
