@@ -1,3 +1,10 @@
+# 0.1.47 — HelioPulse core 1.23.28
+
+- New System → AI tab: connect your own AI provider (Anthropic, OpenAI-compatible such as OpenRouter or Groq, or Ollama on your network). Keys are encrypted and never shown again; nothing is sent to any provider until you turn AI on and accept the data notice; daily call and token limits.
+- AI assistant with memory: when AI is on, the small button at the bottom right of every page opens a chat that answers with your installation's real data, opens HelioPulse guides when needed, links you to the right page and remembers earlier conversations (you can review, search or erase what it remembers). If an administrator allows it, it proposes setting changes, new automations (saved disabled) and new drivers as cards you apply with a button.
+- Claude: works with the newest models such as Claude Opus 5.5; use the model id (claude-opus-5-5), and a failed connection test shows the provider's own message.
+- 0.1.46 was never published (its image build failed); this release includes its changes.
+
 # 0.1.45 — HelioPulse core 1.23.26
 
 - Tuya: automations run over the local network again. Devices that name their switch "switch" on the LAN (such as some dual power transfer switches) now get rule commands saved as "switch_1" over the LAN instead of the cloud, which could reject them with error 2008. That error is now explained on screen.
