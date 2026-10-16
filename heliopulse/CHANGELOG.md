@@ -1,3 +1,7 @@
+# 0.1.44 — HelioPulse core 1.23.25
+
+- SRNE inverters: changing a setting no longer fails every time. The ASP48100U200-H never answers reads of the over-discharge voltage (0xE00D) or the maximum charge current (0xE20A), and each change first rereads every setting, so those two blocked all the others. They are no longer listed; set them on the inverter's own display.
+
 # 0.1.43 — HelioPulse core 1.23.24
 
 - Support requests: after you send a request, the full compressed diagnostic of the app is generated in the background and added to it, so support can look into the problem without asking you for files. It includes no personal data or credentials; if it cannot be added, the request is still sent as before.
