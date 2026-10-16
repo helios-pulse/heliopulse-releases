@@ -1,3 +1,12 @@
+# 0.1.43 — HelioPulse core 1.23.24
+
+- Support requests: after you send a request, the full compressed diagnostic of the app is generated in the background and added to it, so support can look into the problem without asking you for files. It includes no personal data or credentials; if it cannot be added, the request is still sent as before.
+- Panel: after an update, a one-time "What's new" notice lists the new features of the installed version, each with a direct link. In this version it points to the support diagnostic.
+
+# 0.1.42 — HelioPulse core 1.23.23
+
+- Automations: a condition that compares metrics of several devices now shows every metric with its device, and editing a row keeps the right device. Wait and sustained nodes show their full list of conditions.
+
 # 0.1.41 — HelioPulse core 1.23.22
 
 - Core 1.23.22: fixes for the Tuya integration (local search on HelioPulse OS, clearer setup errors, removing Tuya circuits). Tuya stays hidden in Home Assistant, so this app has no visible change.
