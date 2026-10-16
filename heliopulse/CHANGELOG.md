@@ -1,3 +1,8 @@
+# 0.1.45 — HelioPulse core 1.23.26
+
+- Tuya: automations run over the local network again. Devices that name their switch "switch" on the LAN (such as some dual power transfer switches) now get rule commands saved as "switch_1" over the LAN instead of the cloud, which could reject them with error 2008. That error is now explained on screen.
+- Rules → Execution log: each action shows whether it was confirmed, left unconfirmed or failed, with the reason, and a run whose action was not applied is marked "Actions not applied" instead of looking like a success.
+
 # 0.1.44 — HelioPulse core 1.23.25
 
 - SRNE inverters: changing a setting no longer fails every time. The ASP48100U200-H never answers reads of the over-discharge voltage (0xE00D) or the maximum charge current (0xE20A), and each change first rereads every setting, so those two blocked all the others. They are no longer listed; set them on the inverter's own display.
