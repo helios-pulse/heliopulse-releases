@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.41 — HelioPulse core 1.23.22
+
+- Core 1.23.22: fixes for the Tuya integration (local search on HelioPulse OS, clearer setup errors, removing Tuya circuits). Tuya stays hidden in Home Assistant, so this app has no visible change.
+
 ## 0.1.40 — HelioPulse core 1.23.21
 
 - Firmware version on the device cards: each inverter shows the firmware version it reports in its own registers (SRNE: app version; Deye three-phase and single-phase: control and communication boards). HelioPulse only reads it, every 12 hours, and never updates an inverter's firmware.
