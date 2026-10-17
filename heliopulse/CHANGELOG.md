@@ -1,3 +1,7 @@
+# 0.1.50 — HelioPulse core 1.23.31
+
+- Assistant: attach photos, screenshots, PDFs (such as a manufacturer's Modbus map) and text files such as CSV to your questions, with the paperclip, by pasting or by dragging (up to 4). Photos are shrunk before sending, files go only to your AI provider, and they are deleted with the conversation.
+
 # 0.1.49 — HelioPulse core 1.23.30
 
 - Assistant: with Claude it sometimes used its tools and ended without writing anything. It now has more room to reason, asks again for the answer when none arrives, and says so in the chat if there is still no text.
