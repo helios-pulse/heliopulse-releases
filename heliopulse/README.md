@@ -2,12 +2,6 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
-## 0.1.52 — HelioPulse core 1.23.33
-
-- Expected consumption: hours and weekends now follow your site's clock. They used UTC, so on sites behind UTC a Friday evening counted as the weekend.
-- What's new: following a link keeps the highlighted card in view while the rest of the page loads.
-- The rest of this core release is for HelioPulse OS (the neural consumption model and its nightly training); nothing else changes in this App.
-
 ## 0.1.51 — HelioPulse core 1.23.32
 
 - Devices: USB adapters under Detected serial ports show their maker and model instead of "Unknown".
