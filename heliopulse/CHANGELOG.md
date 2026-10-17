@@ -1,3 +1,11 @@
+# 0.1.49 — HelioPulse core 1.23.30
+
+- Assistant: with Claude it sometimes used its tools and ended without writing anything. It now has more room to reason, asks again for the answer when none arrives, and says so in the chat if there is still no text.
+
+# 0.1.48 — HelioPulse core 1.23.29
+
+- AI: Anthropic keys that are not tied to a workspace (sk-ant-usr...) failed every request. Their profile now takes the workspace ID, and the error explains what is missing. The assistant also no longer ends with an empty or cut answer after showing a page button.
+
 # 0.1.47 — HelioPulse core 1.23.28
 
 - New System → AI tab: connect your own AI provider (Anthropic, OpenAI-compatible such as OpenRouter or Groq, or Ollama on your network). Keys are encrypted and never shown again; nothing is sent to any provider until you turn AI on and accept the data notice; daily call and token limits.
