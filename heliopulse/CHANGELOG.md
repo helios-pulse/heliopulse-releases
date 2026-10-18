@@ -1,3 +1,8 @@
+# 0.1.56 — HelioPulse core 1.23.37
+
+- SRNE inverters: the over-discharge voltage and maximum charge current are back in Devices › Device configuration. The inverter did not answer them when parameters were read in blocks, which blocked every change; they are now read one by one.
+- Device configuration: when the device refuses a change, the panel says so with the Modbus code it returned instead of “Write error”. Values are rounded to their step and options show their name.
+
 # 0.1.55 — HelioPulse core 1.23.36
 
 - Device configuration: if the device doesn't answer a parameter, Devices › Device configuration names it and explains why no change can be applied. If the driver was modified on this installation, you can restore the official one right there.
