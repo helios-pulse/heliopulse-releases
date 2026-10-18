@@ -1,3 +1,9 @@
+# 0.1.57 — HelioPulse core 1.23.38
+
+- Solar forecast: the card on Energy and on each inverter now has Today and Tomorrow, so you can check the next day's expected production before midnight.
+- Home Assistant sensors: each inverter with panels publishes “Solar forecast today” and “Solar forecast tomorrow” (kWh) through MQTT Discovery, for automations such as setting the next day's battery charge target. They stay available at night while the inverter is off.
+- Panel: the forecast card keeps its size while it loads, Energy reads the savings settings once, and with “reduce motion” on, content shows as soon as it has loaded.
+
 # 0.1.56 — HelioPulse core 1.23.37
 
 - SRNE inverters: the over-discharge voltage and maximum charge current are back in Devices › Device configuration. The inverter did not answer them when parameters were read in blocks, which blocked every change; they are now read one by one.

@@ -62,6 +62,13 @@ does not prove that retained entities were removed.
 Use distinct `topic_prefix` values when several installations share a broker.
 `discovery_prefix` defaults to `homeassistant` and must match HA's MQTT settings.
 
+Each inverter with a solar array also gets two forecast sensors, "Solar forecast
+today" and "Solar forecast tomorrow" (kWh, the same total the panel shows). They
+stay available at night while the inverter is off. Tomorrow's sensor is
+unavailable for up to 3 hours after midnight, until the next forecast download.
+Use it in an evening automation, for example to set the next day's battery
+charge target.
+
 ## Serial and ESP32
 
 UART devices are mapped by Supervisor. The API and child collectors run as UID
