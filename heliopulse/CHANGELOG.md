@@ -1,3 +1,13 @@
+# 0.1.54 — HelioPulse core 1.23.35
+
+- Energy plan: enter each battery bank's capacity and maximum charge and discharge power in Energy plan › Batteries, set the charge your vehicle needs by its departure time and add appliances that can wait, like the washing machine or the pool pump. The plan suggests when to run them, on solar or in the cheapest hours, and never controls your devices.
+- Energy plan: it uses your time-of-use tariff, including time bands and export price, and shows the estimated money saving.
+- Energy plan: it refreshes at least every hour, “Regenerate” no longer goes back to the previous plan, it keeps your battery reserve and shows times in your time zone. Saving the policies no longer resets the objective, mode or reserve.
+- Dashboard: with every battery's capacity entered, the total state of charge weights each bank by its capacity.
+- Expected consumption: a peak seen on a single day, like charging the car once, no longer inflates the following weeks.
+- History: the “Calibrate with real production” switch works again.
+- Security: hardened backup restore and the panel's browser security headers.
+
 # 0.1.53 — HelioPulse core 1.23.34
 
 - Expected consumption: on an inverter's page, with several inverters, the chart now shows that inverter's own expected consumption, based on its own history, instead of the whole installation. The overview still shows the total.
