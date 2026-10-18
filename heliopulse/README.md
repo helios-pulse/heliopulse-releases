@@ -2,6 +2,13 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.55 — HelioPulse core 1.23.36
+
+- Device configuration: if the device doesn't answer a parameter, Devices › Device configuration names it and explains why no change can be applied. If the driver was modified on this installation, you can restore the official one right there.
+- Batteries: on the Energy screen, a battery group with more than 4 batteries shows as one card; open it to see each battery. In Devices › Parallel systems, a shared battery can take several battery banks (BMS) on the same bus, with the level averaged by capacity.
+- System: Communications and Maintenance load once. Every card no longer requests its data twice, and a click made while the tab loads is no longer lost.
+- Phone: the “More” sheet now closes when you pick the screen you are already on.
+
 ## 0.1.54 — HelioPulse core 1.23.35
 
 - Energy plan: enter each battery bank's capacity and maximum charge and discharge power in Energy plan › Batteries, set the charge your vehicle needs by its departure time and add appliances that can wait, like the washing machine or the pool pump. The plan suggests when to run them, on solar or in the cheapest hours, and never controls your devices.
