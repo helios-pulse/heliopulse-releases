@@ -1,3 +1,9 @@
+# 0.1.58 — HelioPulse core 1.23.40
+
+- Diagnostics: the diagnostic attached to Support requests and the one your installer downloads now include recent logs of HelioPulse and of each collector, the state of every process (restarts and last exit), system data from the host and an Internet/DNS check. Before, the app only exported the version and disk usage.
+- Diagnostics on every installation also include each device's communication status, the state of Voltronic parallel groups and the result of the last group detection, without personal data, serial numbers or credentials. A failed detection is now written to the log with its error code.
+- System › General shows how long the host has been powered on and the memory in use.
+
 # 0.1.57 — HelioPulse core 1.23.38
 
 - Solar forecast: the card on Energy and on each inverter now has Today and Tomorrow, so you can check the next day's expected production before midnight.
