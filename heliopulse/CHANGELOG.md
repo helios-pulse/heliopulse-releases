@@ -1,3 +1,7 @@
+# 0.1.63 — HelioPulse core 1.23.45
+
+- Voltronic inverters (beta): every Axpert King in a group now adds its solar production to the day and to history, and shows its output voltage and solar input. The inverter on the USB cable also shows its temperature and solar current. You can now enter the panels of each inverter to see its solar forecast.
+
 # 0.1.62 — HelioPulse core 1.23.44
 
 - Voltronic inverters (beta): HelioPulse can now read all nine Axpert King inverters of a parallel stack whose units are numbered 1 to 9, where position 0 repeats the inverter on the USB cable. The inverters of a group are also numbered #1 to #9 in order.
