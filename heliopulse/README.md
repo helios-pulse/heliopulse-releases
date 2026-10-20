@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.62 — HelioPulse core 1.23.44
+
+- Voltronic inverters (beta): HelioPulse can now read all nine Axpert King inverters of a parallel stack whose units are numbered 1 to 9, where position 0 repeats the inverter on the USB cable. The inverters of a group are also numbered #1 to #9 in order.
+
 ## 0.1.61 — HelioPulse core 1.23.43
 
 - Mobile app: HelioPulse now also pairs the new HelioPulse app for Windows (preview). The Windows app works with HelioPulse OS appliances with remote access; nothing changes for Home Assistant installations.
