@@ -1,3 +1,7 @@
+# 0.1.61 — HelioPulse core 1.23.43
+
+- Mobile app: HelioPulse now also pairs the new HelioPulse app for Windows (preview). The Windows app works with HelioPulse OS appliances with remote access; nothing changes for Home Assistant installations.
+
 # 0.1.60 — HelioPulse core 1.23.42
 
 - Voltronic inverters (beta): the inverter on the USB cable now reports its solar power in watts and its temperature, and shows its firmware. If detecting a Voltronic group fails, the assistant explains which check failed and how each position answered, and both the assistant and each group can download a diagnostic file without serial numbers.
