@@ -1,3 +1,7 @@
+# 0.1.60 — HelioPulse core 1.23.42
+
+- Voltronic inverters (beta): the inverter on the USB cable now reports its solar power in watts and its temperature, and shows its firmware. If detecting a Voltronic group fails, the assistant explains which check failed and how each position answered, and both the assistant and each group can download a diagnostic file without serial numbers.
+
 # 0.1.59 — HelioPulse core 1.23.41
 
 - Help: a new short guide to AI in System › General › Help covers your providers, the assistant settings and the assistant button (chat with your real data, attachments and memory).
