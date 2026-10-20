@@ -1,3 +1,8 @@
+# 0.1.59 — HelioPulse core 1.23.41
+
+- Help: a new short guide to AI in System › General › Help covers your providers, the assistant settings and the assistant button (chat with your real data, attachments and memory).
+- The full guided tour now also explains expected consumption, fullscreen (kiosk) mode and the Energy plan's batteries, vehicle and flexible loads, and its texts were updated in all 7 languages. The assistant button is now shown on its own tour step instead of staying hidden.
+
 # 0.1.58 — HelioPulse core 1.23.40
 
 - Diagnostics: the diagnostic attached to Support requests and the one your installer downloads now include recent logs of HelioPulse and of each collector, the state of every process (restarts and last exit), system data from the host and an Internet/DNS check. Before, the app only exported the version and disk usage.
