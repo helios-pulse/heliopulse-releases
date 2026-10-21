@@ -1,3 +1,7 @@
+# 0.1.64 — HelioPulse core 1.23.46
+
+- Voltronic inverters (beta): a Voltronic group whose inverters are numbered 1 to 9 can now be saved: the ninth inverter no longer makes it fail with "The group changed". A group can now hold up to 16 inverters.
+
 # 0.1.63 — HelioPulse core 1.23.45
 
 - Voltronic inverters (beta): every Axpert King in a group now adds its solar production to the day and to history, and shows its output voltage and solar input. The inverter on the USB cable also shows its temperature and solar current. You can now enter the panels of each inverter to see its solar forecast.
