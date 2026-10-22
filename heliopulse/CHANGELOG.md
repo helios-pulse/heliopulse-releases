@@ -1,3 +1,11 @@
+# 0.1.68 — HelioPulse core 1.23.50
+
+- Rules: opening an active visual flow replays its last run on the canvas on its own. A dot travels along each arrow the run followed, each node lights up with its result, and the path stays highlighted.
+
+# 0.1.67 — HelioPulse core 1.23.49
+
+- No visible changes in the Home Assistant app: this core lets Rules set a Tuya EV charger's current from a computed value, a HelioPulse OS and Docker feature.
+
 # 0.1.66 — HelioPulse core 1.23.48
 
 - No visible changes in the Home Assistant app: this core adds Tuya EV chargers for HelioPulse OS and Docker. In Home Assistant, Tuya devices keep coming from Home Assistant's own Tuya integration.
