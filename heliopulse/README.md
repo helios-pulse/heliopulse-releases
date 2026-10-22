@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.65 — HelioPulse core 1.23.47
+
+- Equipment status: the inverters of a parallel system now appear as small tiles in a grid under the system total, so nine inverters take three rows instead of a long column. The same applies when a site has more than four separate inverters. Tap a tile to open that inverter.
+
 ## 0.1.64 — HelioPulse core 1.23.46
 
 - Voltronic inverters (beta): a Voltronic group whose inverters are numbered 1 to 9 can now be saved: the ninth inverter no longer makes it fail with "The group changed". A group can now hold up to 16 inverters.
