@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.69 — HelioPulse core 1.23.51
+
+- EV chargers: tap the EV charger card in Energy (or "View EV charger" on an inverter's page) to open its details: the charging current over the day (actual and set, with the actual current measured by the charger or estimated from its power and the device's voltage) and the energy charged per hour for one day or per day for longer periods, for today, yesterday, 7 days, 30 days or custom dates.
+
 ## 0.1.68 — HelioPulse core 1.23.50
 
 - Rules: opening an active visual flow replays its last run on the canvas on its own. A dot travels along each arrow the run followed, each node lights up with its result, and the path stays highlighted.
