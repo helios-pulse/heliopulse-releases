@@ -2,6 +2,16 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.71 — HelioPulse core 1.23.52
+
+- Publishes 0.1.70, whose image build failed: same HelioPulse core 1.23.52, no other changes.
+
+## 0.1.70 — HelioPulse core 1.23.52
+
+- Sol-Ark 15K inverters (beta): HelioPulse reads the Sol-Ark 15K-2P-N over RS485: battery, its three solar inputs, grid, output and loads on each line (L1/L2), the GEN port, relays and inverter faults (F codes). Read-only, as Sol-Ark requires. Add it in Devices and set Modbus SN to 01 on the inverter screen.
+- Devices: in Detected serial ports, a warning points out identical USB adapters (such as several CH340) that only their connector tells apart, explains how to keep them from getting crossed and names the devices that may be reading another device's adapter.
+- History: on a new installation, History and the charts no longer show an error before the first readings arrive; they stay empty until there is data.
+
 ## 0.1.69 — HelioPulse core 1.23.51
 
 - EV chargers: tap the EV charger card in Energy (or "View EV charger" on an inverter's page) to open its details: the charging current over the day (actual and set, with the actual current measured by the charger or estimated from its power and the device's voltage) and the energy charged per hour for one day or per day for longer periods, for today, yesterday, 7 days, 30 days or custom dates.
