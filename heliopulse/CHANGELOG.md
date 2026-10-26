@@ -1,3 +1,7 @@
+# 0.1.72 — HelioPulse core 1.23.53
+
+- HelioPulse core 1.23.53: maintenance release with no visible changes. It brings the groundwork for HelioPulse OS PC (the x86-64 system image) and creates the device identity without OpenSSH when that tool is missing.
+
 # 0.1.71 — HelioPulse core 1.23.52
 
 - Publishes 0.1.70, whose image build failed: same HelioPulse core 1.23.52, no other changes.
