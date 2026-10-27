@@ -2,6 +2,14 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.74 — HelioPulse core 1.23.59
+
+- HelioPulse core 1.23.59: in Devices › Home Assistant sources, “Add from Home Assistant” no longer says that Home Assistant is unavailable on large installations, on slower hardware such as a Raspberry Pi, or when an integration reports a sensor with an unusual value. If Home Assistant still can't be read, the app log says why. 0.1.73 did not reach the store: its changes, listed below, ship in this version.
+
+## 0.1.73 — HelioPulse core 1.23.58
+
+- HelioPulse core 1.23.58: restoring a backup of several GB from System › Maintenance › Backups no longer fails 15 seconds into the upload, and a failed upload says why. Restore errors name their cause (newer backup, another version, InfluxDB). ESP32 collectors: the flasher has a field for this HelioPulse's address.
+
 ## 0.1.72 — HelioPulse core 1.23.53
 
 - HelioPulse core 1.23.53: maintenance release with no visible changes. It brings the groundwork for HelioPulse OS PC (the x86-64 system image) and creates the device identity without OpenSSH when that tool is missing.
