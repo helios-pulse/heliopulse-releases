@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.75 — HelioPulse core 1.23.60
+
+- HelioPulse core 1.23.60: System › General › Appearance offers five colour themes (Classic, Instrument, Graphite, Forest and Ocean), each usable in light, dark or the device's mode; the panel starts in dark Classic. Solar, battery and grid keep their colours in every theme.
+
 ## 0.1.74 — HelioPulse core 1.23.59
 
 - HelioPulse core 1.23.59: in Devices › Home Assistant sources, “Add from Home Assistant” no longer says that Home Assistant is unavailable on large installations, on slower hardware such as a Raspberry Pi, or when an integration reports a sensor with an unusual value. If Home Assistant still can't be read, the app log says why. 0.1.73 did not reach the store: its changes, listed below, ship in this version.
