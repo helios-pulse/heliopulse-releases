@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.76 — HelioPulse core 1.23.61
+
+- HelioPulse core 1.23.61: at the bottom of History, a table shows solar, consumption, grid, battery charge and discharge and EV energy with the period's peaks, SOC range and temperatures: hour by hour for Today and day by day for longer ranges, with totals and a CSV export. Battery charge and discharge are now recorded, and the last 30 days are rebuilt from the stored readings. On the night the clocks go back, the exported energy, forecast and EV charger histories no longer keep loading.
+
 ## 0.1.75 — HelioPulse core 1.23.60
 
 - HelioPulse core 1.23.60: System › General › Appearance offers five colour themes (Classic, Instrument, Graphite, Forest and Ocean), each usable in light, dark or the device's mode; the panel starts in dark Classic. Solar, battery and grid keep their colours in every theme.
