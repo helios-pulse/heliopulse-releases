@@ -1,3 +1,7 @@
+# 0.1.77 — HelioPulse core 1.23.62
+
+- HelioPulse core 1.23.62: System › General › Appearance lets you choose how the energy flow is drawn (Classic, Schematic, Orbit, Ribbons, Horizon or Core) and how much it moves. Every style shows the same data and follows the colour theme.
+
 # 0.1.76 — HelioPulse core 1.23.61
 
 - HelioPulse core 1.23.61: at the bottom of History, a table shows solar, consumption, grid, battery charge and discharge and EV energy with the period's peaks, SOC range and temperatures: hour by hour for Today and day by day for longer ranges, with totals and a CSV export. Battery charge and discharge are now recorded, and the last 30 days are rebuilt from the stored readings. On the night the clocks go back, the exported energy, forecast and EV charger histories no longer keep loading.
