@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.80 — HelioPulse core 1.23.68
+
+- HelioPulse core 1.23.68: System › Notifications chooses where alarms are sent: email through your own SMTP server (SSL/TLS or STARTTLS), SMS through Twilio or Vonage, Telegram, ntfy on your phone, Discord or Slack. Each channel has its own minimum severity, can also warn when the alarm clears, has a step-by-step setup guide and a button to send a test. Messages use the equipment language and the same title, cause and advice as the panel; the same alarm is not repeated on a channel within 15 minutes, and credentials are stored encrypted.
+
 ## 0.1.79 — HelioPulse core 1.23.67
 
 - HelioPulse core 1.23.67: a device that reads several batteries on one cable (JK, Pylontech, Must) now reports the bank as a whole (charge weighted by capacity, power, current, voltage, highest temperature and batteries reporting), and Devices › Battery groups combines batteries of the same model on one bus into one device with its own totals, detail page and Home Assistant device. Each battery is still read as before.
