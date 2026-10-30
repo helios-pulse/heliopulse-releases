@@ -1,3 +1,7 @@
+# 0.1.79 — HelioPulse core 1.23.67
+
+- HelioPulse core 1.23.67: a device that reads several batteries on one cable (JK, Pylontech, Must) now reports the bank as a whole (charge weighted by capacity, power, current, voltage, highest temperature and batteries reporting), and Devices › Battery groups combines batteries of the same model on one bus into one device with its own totals, detail page and Home Assistant device. Each battery is still read as before.
+
 # 0.1.78 — HelioPulse core 1.23.66
 
 - HelioPulse core 1.23.66: on Energy, Reorder in Equipment status sets the order of inverters, batteries, EV chargers and metered circuits; a parallel system moves as one block with its inverters inside. The order is saved for every user and app, also on the Devices page, and new devices appear at the end. Also since 0.1.77 (core 1.23.63 to 1.23.65): a serial port monitor in Devices › Detected serial ports shows what arrives on a port at every speed and tells a wiring fault from a speed mismatch; Pylontech batteries on the Console port are read even when left in debug mode, and their cells update live; energy flow particles in the Schematic, Orbit, Ribbons, Horizon and Core styles move continuously.
