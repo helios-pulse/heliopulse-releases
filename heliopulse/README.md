@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.81 — HelioPulse core 1.23.70
+
+- HelioPulse core 1.23.70: each parallel inverter system now reaches Home Assistant as a device of its own, with the same totals as Energy: solar, consumption, grid and battery power, the shared bank's charge, today's production and consumption, and how many inverters are reporting. An "All batteries" device adds the site's battery summary: overall charge, battery power and how many banks are reporting. Also since 0.1.80 (core 1.23.69): after lowering the number of batteries of a bank, the totals no longer keep counting the battery that was taken out.
+
 ## 0.1.80 — HelioPulse core 1.23.68
 
 - HelioPulse core 1.23.68: System › Notifications chooses where alarms are sent: email through your own SMTP server (SSL/TLS or STARTTLS), SMS through Twilio or Vonage, Telegram, ntfy on your phone, Discord or Slack. Each channel has its own minimum severity, can also warn when the alarm clears, has a step-by-step setup guide and a button to send a test. Messages use the equipment language and the same title, cause and advice as the panel; the same alarm is not repeated on a channel within 15 minutes, and credentials are stored encrypted.
