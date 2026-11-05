@@ -1,3 +1,7 @@
+# 0.1.82 — HelioPulse core 1.23.71
+
+- HelioPulse core 1.23.71: nothing changes in the App. This version adds automatic InfluxDB repair to Docker installations and a stricter check of damaged catalog files on HelioPulse OS.
+
 # 0.1.81 — HelioPulse core 1.23.70
 
 - HelioPulse core 1.23.70: each parallel inverter system now reaches Home Assistant as a device of its own, with the same totals as Energy: solar, consumption, grid and battery power, the shared bank's charge, today's production and consumption, and how many inverters are reporting. An "All batteries" device adds the site's battery summary: overall charge, battery power and how many banks are reporting. Also since 0.1.80 (core 1.23.69): after lowering the number of batteries of a bank, the totals no longer keep counting the battery that was taken out.
