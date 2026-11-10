@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.83 — HelioPulse core 1.23.72
+
+- HelioPulse core 1.23.72: nothing changes in normal use of the App. HelioPulse now refuses to run a second copy on the same data (a second Docker container on the same volumes stops at start and leaves the first one running), and its Go dependencies include the latest security fixes.
+
 ## 0.1.82 — HelioPulse core 1.23.71
 
 - HelioPulse core 1.23.71: nothing changes in the App. This version adds automatic InfluxDB repair to Docker installations and a stricter check of damaged catalog files on HelioPulse OS.
