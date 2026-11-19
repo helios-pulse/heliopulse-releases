@@ -2,6 +2,10 @@
 
 Experimental distribution of HelioPulse for Home Assistant OS.
 
+## 0.1.84 — HelioPulse core 1.23.73
+
+- HelioPulse core 1.23.73: the App no longer gets restarted in a loop by the watchdog when its database is large (a 2 GB database used to take about five minutes to check before starting; it now starts right away and checks in the background, and the health check waits up to three minutes). Battery cycles and per-cell values from Home Assistant entities now appear in History, CSV export and automations, and the report computes self-sufficiency from grid energy even when the inverter has no grid counter of its own.
+
 ## 0.1.83 — HelioPulse core 1.23.72
 
 - HelioPulse core 1.23.72: nothing changes in normal use of the App. HelioPulse now refuses to run a second copy on the same data (a second Docker container on the same volumes stops at start and leaves the first one running), and its Go dependencies include the latest security fixes.
